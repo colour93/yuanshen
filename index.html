@@ -4,12 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh"
-    content="0; url=https://www.urlshare.cn/umirror_url_check?_wv=1&srctype=touch&apptype=android&loginuin=3329135496&plateform=mobileqq&url=https%3A%2F%2Fymzx.qq.com%2Fzlkdatasys%2Fmct%2Fd%2Fplay.shtml&src_uin=1592093897&src_scene=311&cli_scene=QzoneNewService.getActiveFeeds">
   <title>Loading...</title>
 </head>
 
 <body>
+  <script>
+    const { userAgent } = navigator;
+    if (userAgent.includes('Windows')) {
+      window.location.href = 'https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/pc_default';
+    } else if (userAgent.includes('Macintosh')) {
+      window.location.href = 'https://ys.mihoyo.com/cloud/?autobegin=1&utm_source=default';
+    } else {
+      window.location.href = 'https://www.urlshare.cn/umirror_url_check?_wv=1&srctype=touch&apptype=android&loginuin=3329135496&plateform=mobileqq&url=https%3A%2F%2Fymzx.qq.com%2Fzlkdatasys%2Fmct%2Fd%2Fplay.shtml&src_uin=1592093897&src_scene=311&cli_scene=QzoneNewService.getActiveFeeds'
+    }
+  </script>
 </body>
 
 </html>
